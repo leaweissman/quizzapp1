@@ -1,0 +1,22 @@
+{
+  "name": "quizzapp1",
+  "version": "1.0.0",
+  "description": "This is my first quizz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaweissman/quizzapp1.git"
+  },
+  "author": "Lea Weissman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leaweissman/quizzapp1/issues"
+  },
+  "homepage": "https://github.com/leaweissman/quizzapp1#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
