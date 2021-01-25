@@ -4,6 +4,7 @@
   "description": "This is my first quizz app",
   "main": "index.js",
   "scripts": {
+    "start": "parcel watch src/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
