@@ -1,0 +1,7 @@
+.card {
+    display: flex;
+}
+
+.card__headline {
+    border: olive;
+}

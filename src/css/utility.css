@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid olive 2px;
+    background-color: rgb(138, 197, 138);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card__headline {
+    background-color: rgb(138, 197, 138);
+}
+
+.card__question {
+    background-color: rgb(138, 197, 138);
+}
