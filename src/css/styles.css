@@ -24,3 +24,14 @@ section{
     margin-bottom: 1rem;
     padding: .5rem;
 }
+
+.question2{
+    background: gainsboro;
+    color: darkslategray;
+    padding: 1rem;
+}
+
+.question2__card {
+    font-size: 2rem;
+}
+
