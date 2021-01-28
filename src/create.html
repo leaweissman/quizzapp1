@@ -4,51 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body class="container">
+<body>
 
-    <header>
+    <header class="header">
         <h1>Quiz App</h1>
     </header>
 
-    <main class="form">
-        <section class="form__items">
-            <form action="form.php" method="post">
-                <div>
-                    <label for="text">Questiom</label>
-                    <textarea id="text" name="text" cols="35" rows="4"></textarea>
-                    <input type="submit" value="Senden" />
-                </div>
-            </form>
-            <form action="form.php" method="post">
-                <div>
-                    <label for="text">Answer</label>
-                    <textarea id="text" name="text" cols="35" rows="4"></textarea>
-                    <input type="submit" value="Senden" />
-                </div>
-            </form>
+    <main class="container">
+
+        <section class="card card1">
+
+            <h2 class="card__headline">Create your own Question:</h2>
+            <label for="question">Question</label>
+            <input class="question insert" type="text">
+
+            <label for="answer">Answer</label>
+            <input class="answer insert" type="text">
+
+            <button class="createbtn">Create my own card</button>
+
         </section>
 
-        <section>
-            <form action="form.php" method="post">
-                <div>
-                    <label for="text">Question</label>
-                    <textarea id="text" name="text" cols="35" rows="4"></textarea>
-                    <input type="submit" value="Senden" />
-                </div>
-            </form>
-            <form action="form.php" method="post">
-                <div>
-                    <label for="text">Answer</label>
-                    <textarea id="text" name="text" cols="35" rows="4"></textarea>
-                    <input type="submit" value="Senden" />
-                </div>
-            </form>
-        </section>
+
+
+
+
+
+
     </main>
 
     <footer>

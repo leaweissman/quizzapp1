@@ -6,19 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body class="container">
+<body>
 
-    <header>
-        <h1>Your Bookmarks</h1>
+    <header class="header">
+        <h1>Quiz App</h1>
     </header>
 
-    <main>
+    <main class="container">
 
-        <section class="bookmarks">Card 1</section>
-        <section class="bookmarks">Card 2</section>
-        <section class="bookmarks">Card 3</section>
+        <section class="card card1">
+
+            <span class="bookmark">
+                <img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px">
+            </span>
+
+            <h2 class="card__headline">Question</h2>
+
+            <p class="card__question">How far is Mars from Earth?</p>
+
+            <details class="card__answer">
+                <summary>
+                    Show me the Answer
+                </summary>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ab obcaecati voluptates soluta magnam
+                voluptatem ex excepturi iure, perferendis recusandae. Voluptate aspernatur beatae iure. Nam veritatis
+                rerum accusantium saepe iste?
+            </details>
+
+        </section>
+
+        <section class="card">
+
+            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
+            <h2 class="card__headline">Question</h2>
+
+            <p class="card__question">Wie verständigen sich Elefanten untereinander?</p>
+
+            <button class="card__answerbutton">Sie tröten sich einander zu</button>
+            <button class="card__answerbutton">Sie stampfen auf den Boden</button>
+            <button class="card__answerbutton">Sie grollen, d.h. sie erzeugen sehr tiefe Töne</button>
+
+        </section>
+
+        <section class="card">
+            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
+            <h2 class="card__headline">Question</h2>
+
+            <p class="card__question">Question blablub?</p>
+
+            <button class="card__answerbutton">Answer 1</button>
+            <button class="card__answerbutton">Answer 2</button>
+            <button class="card__answerbutton">Answer 3</button>
+
+        </section>
+
+        <section class="card card2">
+            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
+            <h2 class="card__headline">Question</h2>
+
+            <p class="card__question">Question blablub?</p>
+
+            <button class="card__answerbutton">Answer 1</button>
+            <button class="card__answerbutton">Answer 2</button>
+            <button class="card__answerbutton">Answer 3</button>
+
+        </section>
 
     </main>
 
@@ -43,8 +98,6 @@
 
         </nav>
     </footer>
-
-
 
 
 </body>

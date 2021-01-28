@@ -4,44 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body class="container">
+<body>
 
-    <header>
-        <h1 class="profil">Create your Profile</h1>
+
+
+    <header class="header">
+        <h1>Quiz App</h1>
     </header>
-    <main class="profile">
-        <ul class="profile__input">
-            <li class="profile__items">
-                <label for="Name">Name:
-                    <input id="name" type="text" />
-                </label>
-            </li>
 
-            <li>
-                <label for="Mail">Mailing Adress:
-                    <input id="mail" type="text" />
-                </label>
-            </li>
+    <main class="container">
 
-            <li>
-                <label for="Phone">Phone:
-                    <input id="phone" type="text" />
-                </label>
-            </li>
+        <h1 class="form">Create your Account</h1>
+        <h2 class="form">Please fill in the form:</h2>
+
+        <form>
+            <div class="form">
+                <input id="name" name="name" type="text" />
+                <label for="name">Name</label>
+            </div>
+            <div class="form">
+                <input id="address" name="adress" type="text" />
+                <label for="adress">Address</label>
+            </div>
+            <div class="form">
+                <input id="city" name="city" type="text" />
+                <label for="city">City</label>
+            </div>
+            <div class="form"> 
+                <input id="password" name="password" type="password">
+                <label for="password">Password</label>
+            </div>
+        </form>
+
+        <button>Submit!</button>
 
 
-            <li>
-                <button name="absenden" value="abgesendet" type="submit"> Formular abschicken </button>
-            </li>
-
-        </ul>
     </main>
-
 
     <footer>
 
