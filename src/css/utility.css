@@ -26,6 +26,12 @@ box-shadow: 0px 4px 6px rgba(40,40,40, .9);
     text-align: center;
 }
 
+.bookmark {
+    display: flex;
+    position: absolute;
+    margin-left: 22rem;
+    padding-bottom: 20rem;
+}
 
 
 
