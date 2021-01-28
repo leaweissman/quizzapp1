@@ -1,26 +1,8 @@
-*{
-    box-sizing: border-box;
-}
+@import './base.css';
+@import './utility.css';
 
-body{
-    background-color: rgb(207, 247, 202);
-}
+@import './components/cards.css';
 
-.footercontainer{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    border: 2px solid black;
-    margin-bottom: 1rem;
-    padding: .5rem;
-}
 
-main{
-    margin: 6rem;
-}
 
-section{
-    border: 2px solid black;
-    margin-bottom: 1rem;
-    padding: .5rem;
-}
+
