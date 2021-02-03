@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="app.js" defer></script>
 
 </head>
 
@@ -20,56 +21,49 @@
         <section class="card card1">
 
             <span class="bookmark">
-                <img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px">
+                <img class="bookmarksvg clickedbookmark" src="images-quizz/bookmark.svg" alt="bookmark icon"
+                    width="50px">
             </span>
 
             <h2 class="card__headline">Question</h2>
 
-            <p class="card__question">How far is Mars from Earth?</p>
+            <p class="card__question">How far is Mars from Earth?XYZ</p>
 
-            <details class="card__answer">
-                <summary>
-                    Show me the Answer
-                </summary>
-                <p> million kilometers</p>
+
+            <button class="card__button">show me the answer!</button>
+
+            <p class="card__answer hidden"> million kilometers</p>
             </details>
 
         </section>
 
         <section class="card">
 
-            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
+            <span class="bookmark">
+                <img class="bookmarksvg" src="images-quizz/bookmark.svg" alt="bookmark icon" width="50px">
+            </span>
             <h2 class="card__headline">Question</h2>
 
             <p class="card__question">Wie verständigen sich Elefanten untereinander?</p>
 
-            <button class="card__answerbutton">Sie tröten sich einander zu</button>
-            <button class="card__answerbutton">Sie stampfen auf den Boden</button>
-            <button class="card__answerbutton">Sie grollen, d.h. sie erzeugen sehr tiefe Töne</button>
+            <button class="card__button" class="hidden">show me the answer!</button>
+
+            <p class="card__answer hidden">Sie grollen, d.h. sie erzeugen sehr tiefe Töne</p>
+
 
         </section>
 
         <section class="card">
-            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
+            <span class="bookmark">
+                <img class="bookmarksvg" src="images-quizz/bookmark.svg" alt="bookmark icon" width="50px">
+            </span>
             <h2 class="card__headline">Question</h2>
 
             <p class="card__question">Question blablub?</p>
 
-            <button class="card__answerbutton">Answer 1 XYZ</button>
-            <button class="card__answerbutton">Answer 2 XYZ</button>
-            <button class="card__answerbutton">Answer 3</button>
+            <button class="card__button" class="hidden">show me the answer!</button>
 
-        </section>
-
-        <section class="card card2">
-            <span class="bookmark"><img src="images-quizz/bookmark.png" alt="bookmark icon" width="50px"></span>
-            <h2 class="card__headline">Question</h2>
-
-            <p class="card__question">Question blablub?</p>
-
-            <button class="card__answerbutton">Answer 1</button>
-            <button class="card__answerbutton">Answer 2</button>
-            <button class="card__answerbutton">Answer 3</button>
+            <p class="card__answer hidden">Hello that is the answer!</p>
 
         </section>
 

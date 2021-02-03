@@ -80,3 +80,21 @@ header{
 .form{
     color: white;
 }
+
+.hidden{
+    opacity: 0;
+}
+
+
+p.hidden{
+    transition: opacity 2s ease-in;
+}
+
+.bookmarksvg {
+    fill: xnone;
+}
+
+.clickedbookmark {
+    fill: black;
+    transition: 2s ease-in;
+}
