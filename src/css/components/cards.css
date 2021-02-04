@@ -37,3 +37,7 @@ box-shadow: 0px 4px 6px rgba(40,40,40, .9);
 .bookmark{
     justify-content:right;
 }
+
+.far{
+    color: black;
+}

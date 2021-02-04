@@ -90,11 +90,12 @@ p.hidden{
     transition: opacity 2s ease-in;
 }
 
-.bookmarksvg {
-    fill: xnone;
-}
-
-.clickedbookmark {
+.far {
     fill: black;
     transition: 2s ease-in;
 }
+
+.fa-bookmark {
+    fill: teal;
+}
+

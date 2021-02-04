@@ -37,13 +37,9 @@ box-shadow: 0px 4px 6px rgba(40,40,40, .9);
     right: 10px;
 }
 
-.bookmark img {
-    height: 3rem;
-    width: 3rem;
-    top: -30rem; 
-    right: 10px;
-}
+
 
 .createbtn {
     margin: 2rem;
 }
+
