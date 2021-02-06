@@ -90,12 +90,5 @@ p.hidden{
     transition: opacity 2s ease-in;
 }
 
-.far {
-    fill: black;
-    transition: 2s ease-in;
-}
 
-.fa-bookmark {
-    fill: teal;
-}
 
